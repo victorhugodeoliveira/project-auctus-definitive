@@ -3,7 +3,7 @@ import { ContainerRegister, TitleHeadContent, ButtonRegister, SubTitle } from '.
 
 import  Stage1  from './stage1' 
 
-const RegisterChallenges: React.FC = () => {
+const RegisterSolutions: React.FC = () => {
 
   const [stage1, setStage1] = useState(false)
 
@@ -13,13 +13,13 @@ const RegisterChallenges: React.FC = () => {
 
   return (
         <ContainerRegister>
-           <TitleHeadContent>Cadastre desafios</TitleHeadContent>
-           <SubTitle>Um novo desafio em mente?</SubTitle>
-           <SubTitle>Mostre seu desafio a todos</SubTitle>
+           <TitleHeadContent>Cadastre soluções</TitleHeadContent>
+           <SubTitle>Uma nova solução em mente?</SubTitle>
+           <SubTitle>Mostre a sua solução a todos</SubTitle>
            <ButtonRegister onClick={() => handleClick()}> Agora</ButtonRegister>
         {stage1 === true && <Stage1/>  }
         </ContainerRegister>
   )
 }
 
-export default RegisterChallenges
+export default RegisterSolutions

@@ -5,6 +5,7 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import HomeAssociate from './templates/associate/home';
+import HomeStartup from './templates/startup/home';
 
 
 const root = ReactDOM.createRoot(
@@ -15,6 +16,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/associate" element={<HomeAssociate />} />
+        <Route path="/startup" element={<HomeStartup />} />
+
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
