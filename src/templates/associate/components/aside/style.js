@@ -55,6 +55,7 @@ export const MenuItem = styled.li`
       margin: 20px 10px;
       cursor: pointer;
       color: #007fff;
+      font-weight: 300;
 
       transform: opacity .2s;
 

@@ -5,6 +5,7 @@ export const Container = styled.div`
     right: 339px;
     top: 200px;
     margin-top: 30px;
+    max-height: 400px;
     animation: fadeIn 1s;
     @keyframes fadeIn {
   0% { opacity: 0; }
@@ -34,6 +35,7 @@ export const BoxContent = styled.div`
     margin: 10px 0px ;
     min-width: 550px;
     min-height: 200px;
+    max-height: 400px;
     position: relative;
     left: 340px;
     bottom: 215px;
@@ -41,6 +43,7 @@ export const BoxContent = styled.div`
 
 export const SubTitleStage = styled.h4`
     color: #007fff;
+    margin-top: 50px;
     font-weight: 300;
     position: relative;
     left: 10px;
@@ -86,6 +89,7 @@ export const TextArea = styled.textarea`
     position: relative;
     bottom: 45px;
     left: 11px;
+    margin-bottom: 55px;
     border: 1px solid #e1e1e1;
     outline: none;
     animation: fadeIn 1s;
@@ -106,9 +110,10 @@ export const TextArea = styled.textarea`
 `
 
 export const ButtonStage2 = styled.button`
-    position: absolute;
-    top: 250px;
-    left: 0px;
+    position: relative;
+    left: 338px;
+    bottom: 300px;
+    margin-top: 20px;
     color: #ffff;
     background-color: #007fff;
     border-color: #007fff;

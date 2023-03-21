@@ -3,7 +3,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     position: absolute;
-    top: 280px;
+    bottom: 30px;
+    left: 350px;
+    min-width: 400px;
     animation: fadeIn 1s;
     @keyframes fadeIn {
   0% { opacity: 0; }
@@ -31,26 +33,25 @@ export const TitleStage2 = styled.h4`
 
 export const Select = styled.select`
     position: relative;
-    top: 70px;
-    left: 20px;
-    margin: 0px 20px;
+    margin-right: 10px;
 `
 
 export const TitleFocus = styled.h4`
     position: absolute;
-    left: 200px;
+    left: 400px;
     color: #007fff;
     font-weight: 300;
 `
 export const TitleProcess = styled.h4`
     position: absolute;
-    left: 400px;
+    left: 200px;
     color: #007fff;
     font-weight: 300;
 `
 
 export const TextArea = styled.textarea`
     resize: none;
+    margin-top: 25px;
     font-weight: 300px;
     font-family: Arial;
     min-height: 200px;

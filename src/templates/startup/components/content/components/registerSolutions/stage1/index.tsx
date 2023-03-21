@@ -59,9 +59,9 @@ const Stage1: React.FC = () => {
                 <Checkbox onClick={() => handleClick()} value="outros segmentos" type="checkbox" />
               </CheckboxDiv>
               {outhers === true && <TextArea placeholder="Digite aqui outras..."></TextArea> }
-              <ButtonStage2 onClick={() => handleStage2()}>Proximos passos</ButtonStage2>
-            {stage2 === true && <Stage2/>}
             </BoxContent>
+            <ButtonStage2 onClick={() => handleStage2()}>Proximos passos</ButtonStage2>
+            {stage2 === true && <Stage2/>}
         </Container>
      );
 }

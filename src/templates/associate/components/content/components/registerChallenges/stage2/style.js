@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     position: absolute;
-    top: 280px;
+    bottom: 50px;
+    left: 350px;
     animation: fadeIn 1s;
     @keyframes fadeIn {
   0% { opacity: 0; }
@@ -51,6 +52,7 @@ export const TitleProcess = styled.h4`
 
 export const TextArea = styled.textarea`
     resize: none;
+    margin-top: 25px;
     font-weight: 300px;
     font-family: Arial;
     min-height: 200px;
