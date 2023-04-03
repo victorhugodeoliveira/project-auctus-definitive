@@ -1,4 +1,6 @@
 {
+  "no-unused-vars": "off",
+
   "compilerOptions": {
     "target": "es5",
     "lib": [
