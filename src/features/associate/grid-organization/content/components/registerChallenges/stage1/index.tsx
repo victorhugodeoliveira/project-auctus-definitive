@@ -10,7 +10,9 @@ import {
     CheckboxDiv,
     TextArea,
     ButtonStage2,
-    TextContainer
+    TextContainer,
+    NameSolution,
+    InputName
 } 
     from './style'
 
@@ -60,32 +62,34 @@ const Stage1: React.FC = () => {
 
         <Container>
             <BoxContent>
+            <NameSolution>Nome da Solução: </NameSolution>
+            <InputName type="text" name="name-solution" placeholder="Digite o nome da solução"/>
             <SubTitleStage>Cultura:</SubTitleStage>
               <CheckboxDiv>
               <TitleCheckbox>Soja</TitleCheckbox>
-                <Checkbox value="soja" type="checkbox" />
+                <Checkbox id="soja" value="soja" type="checkbox" />
                 <TitleCheckbox>Milho</TitleCheckbox>
-                <Checkbox value="milho" type="checkbox" />
+                <Checkbox id="milho" value="milho" type="checkbox" />
                 <TitleCheckbox>Cana</TitleCheckbox>
-                <Checkbox value="cana" type="checkbox" />
+                <Checkbox id="cana" value="cana" type="checkbox" />
                 <TitleCheckbox>Florestal</TitleCheckbox>
-                <Checkbox value="florestal" type="checkbox" />
+                <Checkbox id="florestal" value="florestal" type="checkbox" />
                 <TitleCheckbox>Café</TitleCheckbox>
-                <Checkbox value="cafe" type="checkbox" />
+                <Checkbox id="cafe" value="cafe" type="checkbox" />
                 <TitleCheckbox>Citrus</TitleCheckbox>
-                <Checkbox value="citrus" type="checkbox" />
+                <Checkbox id="citrus" value="citrus" type="checkbox" />
                 <TitleCheckbox>Pecuária corte</TitleCheckbox>
-                <Checkbox value="pecuaria corte" type="checkbox" />
+                <Checkbox id="pecuaria-corte" value="pecuaria corte" type="checkbox" />
               </CheckboxDiv>
-              <CheckboxDiv style={{ bottom: 30 }}>
+              <CheckboxDiv style={{ bottom: 65 }}>
               <TitleCheckbox>Pecuária de leite</TitleCheckbox>
-                <Checkbox value="pecuaria de leite" type="checkbox" />
+                <Checkbox id="pecuaria-leite" value="pecuaria de leite" type="checkbox" />
                 <TitleCheckbox>Outras proteínas</TitleCheckbox>
-                <Checkbox onClick={() => handleClick()} value="outras proteinas" type="checkbox" />
+                <Checkbox onClick={() => handleClick()} id="outras-proteinas" value="outras proteinas" type="checkbox" />
                 <TitleCheckbox>Outras culturas</TitleCheckbox>
-                <Checkbox onClick={() => handleClick2()} value="outras culturas" type="checkbox" />
+                <Checkbox onClick={() => handleClick2()} id="outras-culturas" value="outras culturas" type="checkbox" />
                 <TitleCheckbox>Outros segmentos</TitleCheckbox>
-                <Checkbox onClick={() => handleClick3()} value="outros segmentos" type="checkbox" />
+              <Checkbox onClick={() => handleClick3()} id="outros-segmentos" value="outros segmentos" type="checkbox" />
               </CheckboxDiv>
               <TextContainer></TextContainer>
             <TextContainer>

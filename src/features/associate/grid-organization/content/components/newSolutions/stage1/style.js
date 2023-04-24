@@ -47,7 +47,6 @@ export const SubTitleStage = styled.h4`
     margin-top: 50px;
     font-weight: 300;
     position: relative;
-    left: 10px;
 `;
 
 export const Select = styled.select`
@@ -64,7 +63,6 @@ export const Select = styled.select`
 export const CheckboxDiv = styled.div`
     position: relative;
     bottom: 10px;
-    left: 10px;
     display: inline-flex;
 `
 
@@ -112,20 +110,18 @@ export const TextArea = styled.textarea`
 }
 `
 
-export const ButtonStage23 = styled.button`
-
-`
-
 export const ButtonStage2 = styled.button`
+    position: relative;
+    left: 338px;
+    bottom: 300px;
+    margin-top: 20px;
     color: #ffff;
-    position: absolute;
-    bottom: 100px;
     background-color: #007fff;
     border-color: #007fff;
     border-radius: 5px;
     padding: 10px 20px;
     animation: fadeIn 1s;
-    max-width: 150;
+    max-width: 100;
     max-height: 100;
     cursor: pointer;
 

@@ -20,10 +20,11 @@ const Aside: React.FC = () => {
         <Container>
         <ListContainer>
           <MenuItem onClick={() => handleSelectOption('option1')}>Dashboard</MenuItem>
-          <MenuItem onClick={() => handleSelectOption('option2')}>Procurar novos desafios</MenuItem>
-          <MenuItem onClick={() => handleSelectOption('option3')}>Cadastre soluções</MenuItem>
-          <MenuItem onClick={() => handleSelectOption('option4')}>Documentação</MenuItem>
-          <MenuItem onClick={() => handleSelectOption('option5')}>Fale conosco</MenuItem>
+          <MenuItem onClick={() => handleSelectOption('option2')}>Procurar novas soluções</MenuItem>
+          <MenuItem onClick={() => handleSelectOption('option3')}>Cadastre desafios</MenuItem>
+          <MenuItem onClick={() => handleSelectOption('option4')}>Profile</MenuItem>
+          <MenuItem onClick={() => handleSelectOption('option5')}>Documentação</MenuItem>
+          <MenuItem onClick={() => handleSelectOption('option6')}>Fale conosco</MenuItem>
         </ListContainer>
         <Content selectedOption={state.selectedOption} />
         </Container>

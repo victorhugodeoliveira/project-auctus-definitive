@@ -41,13 +41,29 @@ export const BoxContent = styled.div`
     left: 340px;
     bottom: 215px;
 `
+export const NameSolution = styled.h3`
+    position: relative;
+    top: 28px;
+    color: #007fff;
+    font-weight: 300;
+    max-height: 10px;
+`
+export const InputName = styled.input`
+    position: relative;
+    bottom: 5px;
+    left: 160px;
+    max-width: 200px;
+    font-weight: 300;
+    font-family: Arial;
+    padding: 7px 7px;
+`
 
 export const SubTitleStage = styled.h4`
     color: #007fff;
     margin-top: 50px;
     font-weight: 300;
     position: relative;
-    left: 10px;
+    bottom: 30px;
 `;
 
 export const Select = styled.select`
@@ -63,8 +79,7 @@ export const Select = styled.select`
 
 export const CheckboxDiv = styled.div`
     position: relative;
-    bottom: 10px;
-    left: 10px;
+    bottom: 40px;
     display: inline-flex;
 `
 
@@ -88,7 +103,7 @@ export const TextArea = styled.textarea`
     min-height: 100px;
     min-width: 200px;
     position: relative;
-    bottom: 45px;
+    bottom: 75px;
     left: 11px;
     margin-bottom: 55px;
     border: 1px solid #e1e1e1;

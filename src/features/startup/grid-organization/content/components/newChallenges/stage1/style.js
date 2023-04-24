@@ -47,7 +47,6 @@ export const SubTitleStage = styled.h4`
     margin-top: 50px;
     font-weight: 300;
     position: relative;
-    left: 10px;
 `;
 
 export const Select = styled.select`
@@ -62,22 +61,18 @@ export const Select = styled.select`
 `;
 
 export const CheckboxDiv = styled.div`
-    max-height: 50px;
     position: relative;
     bottom: 10px;
-    left: 10px;
     display: inline-flex;
 `
 
 export const Checkbox = styled.input`
     position: relative;
     margin-right: 10px;
-    max-height: 30px;
  
 `
 export const TitleCheckbox = styled.h5`
     font-weight: 300;
-    max-height: 10px;
     color: #000;
     position: relative;
     bottom: 20px;

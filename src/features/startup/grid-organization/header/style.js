@@ -50,15 +50,45 @@ export const IconsContainer = styled.div`
     right: 250px;
 `
 
+export const DivImg = styled.div`
+    position: relative;
+    left: 90px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 30px;
+    transform: opacity .2s;
+    cursor: pointer;
+&:hover {
+    opacity: .7;
+}
+`
+
 export const IconBell = styled(BiBell)`
+    position: relative;
     font-size: 1.4rem;
     color: #007fff;
     cursor: pointer;
+    bottom: 10px;
+    transform: opacity .2s;
+
+&:hover {
+    opacity: .7;
+}
 `
 
 export const IconComent = styled(FaRegCommentDots)`
+    position: relative;
+    bottom: 10px;
     font-size: 1.4rem;
     color: #007fff;
     margin: 0px 25px;
     cursor: pointer;
+    transform: opacity .2s;
+
+&:hover {
+    opacity: .7;
+}
 `
+

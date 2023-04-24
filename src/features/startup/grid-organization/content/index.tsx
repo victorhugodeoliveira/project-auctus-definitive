@@ -2,10 +2,11 @@ import React, { useEffect } from 'react'
 
 import NewChallenges from './components/newChallenges'
 import RegisterSolutions from './components/registerSolutions'
+import Dashboard from './components/dashboard'
+import Profile from './components/profile'
 
 import { AsideContext } from '../../../../config/AsideContext'
 import { Container } from './style'
-import Dashboard from './components/dashboard'
 
 interface ContentProps {
   selectedOption?: string
@@ -25,6 +26,7 @@ const Content: React.FC<ContentProps> = ({ selectedOption }: ContentProps) => {
             {state.selectedOption === 'option1' && <Dashboard />}
             {state.selectedOption === 'option2' && <NewChallenges />}
             {state.selectedOption === 'option3' && <RegisterSolutions />}
+            {state.selectedOption === 'option4' && <Profile/>}
         </Container>
   )
 }
